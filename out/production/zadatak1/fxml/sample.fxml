@@ -1,0 +1,17 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.BorderPane?>
+
+<GridPane fx:controller="ba.unsa.etf.rs.tutorijal2.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+<stylesheets>
+    <URL value="@/css/style.css"/>
+</stylesheets>
+
+    <Button text="Say 'Hello World'" onAction="#sayHelloWorld"/>
+    <Label GridPane.rowIndex="1" fx:id="helloWorld"/>
+</GridPane>
